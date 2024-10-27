@@ -36,7 +36,7 @@ const Contactstack = () => {
                             href={link.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-600 hover:text-black transition duration-300"
+                            className="text-gray-600 hover:text-[#ff7700] transition duration-300"
                         >
                             {link.icon}
                         </a>

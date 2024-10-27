@@ -6,7 +6,7 @@ const Home = () => {
                <div className='left p-4 flex flex-col text-left gap-9 mt-14 '>
                     <div>
                          <p className=' mt-6 pl-1 text-xl text-gray-700 font-Inter '>Hi, my name is,</p>
-                         <h2 className='text-7xl text-gray-600 font-semibold '>Ranjeet Patel</h2>
+                         <h2 className='text-7xl text-gray-600 font-semiwbold '>Ranjeet Patel</h2>
                          {/* <h2 id='myName' className='text-7xl font-semibold'>Ranjeet Patel</h2> */}
                          <span className='text-lg text-gray-600 font-Karla font-semibold'>Fullstack Engineer</span>
                     </div>
@@ -16,7 +16,7 @@ const Home = () => {
                          </p>
                     </div>
                     <div>
-                         <button className=" border border-purple-800 hover:bg-zinc-400 hover:text-white transition-all duration-200 text-gray-700 font-semibold font-Karla py-1 px-4 rounded inline-flex items-center text-sm">
+                         <button className=" border border-[#ff7700] hover:border-2  transition-all duration-400 text-gray-700 font-semibold font-Karla py-1 px-4 rounded inline-flex items-center text-sm shadow-sm">
                               <span>Resume</span>
                          </button>
                     </div>
