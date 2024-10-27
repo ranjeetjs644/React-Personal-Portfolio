@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
      return (
-          <section className=' w-[71vw] mx-auto my-auto mt-2 flex items-center justify-between px-16 py-10 '> 
+          <section className=' w-[71vw] mx-auto my-auto mt-2 flex items-center justify-between px-16 py-10 '>
                <div className='left p-4 flex flex-col text-left gap-9 mt-14 '>
                     <div>
                          <p className=' mt-6 pl-1 text-xl text-gray-700 font-Inter '>Hi, my name is,</p>
