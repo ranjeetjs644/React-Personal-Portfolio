@@ -11,6 +11,7 @@ export default {
                     "Inter": ["Inter", "sans-serif"],
                     "Karla": ["Karla", "sans-serif"],
                     "openSans": ["Open Sans", "sans-serif"],
+                    'dancing': ['Dancing Script', 'cursive'],
                }
           },
      },

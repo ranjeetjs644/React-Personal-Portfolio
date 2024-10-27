@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
-import myImage from '../../assets/myImage.jpg'
 
 const Header = () => {
      const NavLinks = [
@@ -13,7 +12,7 @@ const Header = () => {
      const location = useLocation();
      useEffect(() => {
           const activeLink = NavLinks.find(link => link.path === location.pathname)
-          document.title = activeLink ? `${activeLink.name}-RanjeetPatel` : `Ranjeet Patel`;
+          document.title = activeLink ? `${activeLink.name}-Ranjeet Patel` : `Ranjeet Patel`;
      }, [location.pathname, NavLinks])
      return <>
           <header className='w-[83vw] mx-auto  text-gray-800 flex justify-around border  border-t-0 border-l-0 border-r-0 mt-2 rounded  py-2 '>

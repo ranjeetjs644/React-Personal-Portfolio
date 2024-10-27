@@ -1,12 +1,16 @@
 import React from 'react';
-
+import TexthoverEffect from '../animations/TexthoverEffect'
 const Home = () => {
      return (
-          <section className=' w-[71vw] mx-auto my-auto mt-2 flex items-center justify-between px-16 py-10 '>
+          <section className=' w-[71vw]  mx-auto my-auto mt-2 flex items-center justify-between px-16 py-10 '>
                <div className='left p-4 flex flex-col text-left gap-9 mt-14 '>
                     <div>
                          <p className=' mt-6 pl-1 text-xl text-gray-700 font-Inter '>Hi, my name is,</p>
-                         <h2 className='text-7xl text-gray-600 font-semiwbold '>Ranjeet Patel</h2>
+                         {/* <h2 className='text-7xl text-gray-600 font-semiwbold '>Ranjeet Patel</h2> */}
+                         <h2 className='text-7xl text-gray-600 font-semibold'>
+                              <TexthoverEffect text="Ranjeet   Patel" />
+                         </h2>
+
                          {/* <h2 id='myName' className='text-7xl font-semibold'>Ranjeet Patel</h2> */}
                          <span className='text-lg text-gray-600 font-Karla font-semibold'>Fullstack Engineer</span>
                     </div>
@@ -21,9 +25,11 @@ const Home = () => {
                          </button>
                     </div>
                </div>
-               <div className='right w-[25%]'>
+               <div className='right   absolute left-[70%] -z-50 '>
                     {/* Optional: You can add your image here if needed */}
-                    {/* <img src={myImage} alt="Ranjeet Patel" className="w-full h-auto rounded-md" /> */}
+                    <p className="font-dancing text-3xl text-gray-500 transform rotate-[-20deg]">
+                         "Crafting code"
+                    </p>
                </div>
           </section>
      );
