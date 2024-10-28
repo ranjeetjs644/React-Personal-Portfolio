@@ -12,6 +12,7 @@ export default {
                     "Karla": ["Karla", "sans-serif"],
                     "openSans": ["Open Sans", "sans-serif"],
                     'dancing': ['Dancing Script', 'cursive'],
+                    'Poppins': ["Poppins", "sans-serif"]
                }
           },
      },
